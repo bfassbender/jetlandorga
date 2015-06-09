@@ -12,7 +12,7 @@ if(isset($_GET['email'])){
 			'id'                => $listID,
 			'email'             => array( 'email' => $email ),
 			'merge_vars'        => array(),
-			'double_optin'      => false,
+			'double_optin'      => true,
 			'update_existing'   => true,
 			'replace_interests' => false,
 			'send_welcome'      => true
